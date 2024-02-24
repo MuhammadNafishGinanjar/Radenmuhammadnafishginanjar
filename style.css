@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.profile {
+    border-radius: 20px;
+}
+
+.project-container {
+  margin-top: 210px !important;
+}
+
+.project-card {
+  color: black;
+  transition: 0.3s ease;
+}
+
+nav {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+nav a.active {
+  font-weight: bold; /* gaya teks yang Anda inginkan untuk tautan aktif */
+}
+
+.nav-link {
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #77e477 !important;
+}
+
+
+.project-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.contactme{
+  margin-top: 150px !important;
+  margin-bottom: 100px !important;
+}
+
+.sectiontitle{
+  font-weight: 700;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+  background: #e7fde7;
+  display: inline-block;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+@media (max-width: 991px) {
+    .namaatas{
+        margin-top: 20px;
+    }
+
+    .namabawah{
+        margin-top: 20px;
+    }
+
+    .about-me{
+      text-align: center;
+    }
+
+    .contactme{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .jmbtrn1 {
+      text-align: center;
+    }
+
+    .techstack{
+      display: flex;
+      justify-content: center;
+    }
+}
