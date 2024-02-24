@@ -58,6 +58,11 @@ nav a.active {
   text-transform: uppercase;
 }
 
+.namaatas{
+  font-weight: 700; 
+  font-size: 50px !important;
+}
+
 
 @media (max-width: 991px) {
     .namaatas{
@@ -86,4 +91,44 @@ nav a.active {
       display: flex;
       justify-content: center;
     }
+
+    .stack1{
+      width: 25px !important;
+      height: 25px !important;
+    }
+
+    .stack2{
+      width: 25px !important;
+      height: 25px !important;
+    }
+
+    .stack3{
+      width: 30px !important;
+      height: 25px !important;
+    }
+
+    .namaatas{
+      font-size: 25px !important;
+    }
+
+    .parabawah{
+      font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+  .stack1{
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .stack2{
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .stack3{
+    width: 25px !important;
+    height: 20px !important;
+  }
 }
