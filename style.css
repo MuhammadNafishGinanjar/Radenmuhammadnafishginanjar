@@ -45,6 +45,15 @@ nav a.active {
   margin-bottom: 100px !important;
 }
 
+.btnhijau{
+  background-color: #75e075;
+  color: white;
+}
+
+.btnhijau:hover{
+  background-color: #6cd16c;
+}
+
 .sectiontitle{
   font-weight: 700;
   padding: 10px;
