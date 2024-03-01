@@ -47,7 +47,7 @@ nav a.active {
 
 .btnhijau{
   background-color: #75e075;
-  color: white;
+  color: white !important;
 }
 
 .btnhijau:hover{
